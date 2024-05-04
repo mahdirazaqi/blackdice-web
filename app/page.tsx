@@ -1,7 +1,7 @@
 import ProductCard from "@/components/ProductCard";
 import { PRODUCTS } from "@/fake-data/products.fake";
 
-export default function Home() {
+export default function Root() {
   const products = PRODUCTS;
 
   return (
