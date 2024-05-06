@@ -21,7 +21,7 @@ export default function RootLayout({
       <body dir="rtl" className={`${vazirmatn.className} text-sm`}>
         <Header />
 
-        <main className="container mx-auto p-3">{children}</main>
+        <main className="container mx-auto px-3 py-6">{children}</main>
 
         <Footer />
       </body>
