@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import CartIcon from "../icon/CartIcon";
-import SearchIcon from "../icon/SearchIcon";
 import UserIcon from "../icon/UserIcon";
 
 export default function Header() {

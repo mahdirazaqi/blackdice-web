@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body dir="rtl" className={`${vazirmatn.className} text-sm`}>
+      <body dir="rtl" className={`${vazirmatn.className} text-sm font-vazir`}>
         <Header />
 
         <main className="container mx-auto px-3 py-6">{children}</main>
