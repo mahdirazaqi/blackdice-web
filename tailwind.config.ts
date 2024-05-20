@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        vazir: ['"vazirmatn"'],
+      },
       colors: {
         primary: "#ef4444",
         secondary: "",

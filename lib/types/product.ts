@@ -1,10 +1,11 @@
-import { Core } from "./core";
-
 interface Property {
   [key: string]: string;
 }
 
-export interface Product extends Core {
+export interface Product {
+  _id: string;
+  createdAt: Date;
+  updatedAt: Date;
   title: string;
   description: string;
   referencePrice: number;
